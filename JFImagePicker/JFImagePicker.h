@@ -16,12 +16,11 @@ FOUNDATION_EXPORT const unsigned char JFImagePickerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <JFImagePicker/PublicHeader.h>
 
-
-#import "JFAssetHelper.h"
-#import "JFImageCollectionViewController.h"
-#import "JFImageGroupTableViewController.h"
-#import "JFImageManager.h"
-#import "JFImagePickerController.h"
-#import "JFImagePickerViewCell.h"
-#import "JFPhotoBrowserViewController.h"
-#import "JFPhotoView.h"
+#import <JFImagePicker/JFAssetHelper.h>
+#import <JFImagePicker/JFImageCollectionViewController.h>
+#import <JFImagePicker/JFImageGroupTableViewController.h>
+#import <JFImagePicker/JFImageManager.h>
+#import <JFImagePicker/JFImagePickerController.h>
+#import <JFImagePicker/JFImagePickerViewCell.h>
+#import <JFImagePicker/JFPhotoBrowserViewController.h>
+#import <JFImagePicker/JFPhotoView.h>
