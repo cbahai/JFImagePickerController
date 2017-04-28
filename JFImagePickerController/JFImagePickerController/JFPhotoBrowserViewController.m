@@ -162,7 +162,7 @@
     NSInteger page = floor((photosView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
 	if (!isPreview) {
 		if ([placeholder.backgroundColor isEqual:[[UIColor blackColor] colorWithAlphaComponent:.1]]) {
-			if (ASSETHELPER.selectdPhotos.count>=9) {
+			if (ASSETHELPER.selectdPhotos.count>=ASSETHELPER.maxSelectCount) {
 				return;
 			}
 			[ASSETHELPER.selectdPhotos addObject:@{[NSString stringWithFormat:@"%ld-%ld",(long)page, (long)ASSETHELPER.currentGroupIndex]: @(ASSETHELPER.selectdPhotos.count+1)}];

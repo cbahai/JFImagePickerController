@@ -216,6 +216,13 @@
 	return _selectdPhotos;
 }
 
+- (NSUInteger)maxSelectCount {
+    if (_maxSelectCount<1) {
+        _maxSelectCount = 9;
+    }
+    return _maxSelectCount;
+}
+
 #pragma mark - utils
 - (UIImage *)getCroppedImage:(NSURL *)urlImage
 {
